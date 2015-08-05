@@ -47,7 +47,7 @@ if(canMove) {
 
 if(canAttack) {
     if(keyboard_check(KEY_ATTACK)) {
-        instance_create(x + 10, y, obj_slash);
+        instance_create(x + lengthdir_x(ATTACK_DISTANCE, direction), y + lengthdir_y(ATTACK_DISTANCE, direction), obj_slash);
     }
 }
 

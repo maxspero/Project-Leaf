@@ -44,6 +44,7 @@ KEY_RIGHT = ord('D');
 //KEY_RIGHT = vk_right;
 
 DASH_SPEED = 20;
+ATTACK_DISTANCE = 20;
 
 moveSpeed = 4;
 canMove = true;
